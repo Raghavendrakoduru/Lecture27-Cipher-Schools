@@ -1,0 +1,15 @@
+# include<iostream>
+#include<string>
+using namespace std;
+int main(){
+  string a;
+  string b;
+  cin>>a>>b;
+  //cout<<"The string which you  have given as input are:"<<a<<b<<endl;
+  string c;
+  c= a+b;
+  //cout<<"The string which you  have given as input are:"<<a<<b<<endl;
+  cout<<"The combined word is: "<<c;
+  cout<<"The length of the combined name is "<<c.length();
+  
+} 
